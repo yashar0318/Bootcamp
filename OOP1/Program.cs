@@ -20,6 +20,13 @@ namespace OOP1
             productManager.Add(product1);
             Console.WriteLine(product1.ProductName);
 
+
+            // void ile yazanda konkret cem tapilir,daha sonra o cem ustunde emeliyyat aparmaq mumkun olmur
+           // productManager.Topla2(3, 6);
+            // voidsiz yazanda ise return vasitesile hemin cem ustunde emeliyyat aparmaq mumkun olur
+            //int toplamanetice = productManager.Topla(3, 6);
+            //Console.WriteLine(toplamanetice * 2);
+
            // int eded = 100;
             //productManager.BirSeyYap(eded);
             //Console.WriteLine(eded);
