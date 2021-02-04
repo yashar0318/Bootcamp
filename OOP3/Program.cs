@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 
 namespace OOP3
@@ -20,7 +20,7 @@ namespace OOP3
             basvuruManager.BasvuruYap(esnafKrediManager,new List<ILoggerService> {databaseLoggerService,smsLoggerService });
 
             List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager,tasitKrediManager};
-            //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+            basvuruManager.KrediOnBilgilendirmesiYap(krediler);
            
                 
                 
